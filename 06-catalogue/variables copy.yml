@@ -8,7 +8,7 @@ variable "common_tags" {
 
 variable "tags" {
   default = {
-    Component = "app-alb"
+    Component = "catalogue"
   }
 }
 
@@ -20,5 +20,5 @@ variable "environment" {
 }
 
 variable "zone_name" {
-  default = "saik.online"
+  default = "daws76s.online"
 }
