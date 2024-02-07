@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "saik.online"
-    key    = "sg"
+    key    = "catalogue"
     region = "us-east-1"
     dynamodb_table = "saik-locking-dev"
   }
