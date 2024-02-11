@@ -54,7 +54,7 @@ resource "null_resource" "catalogue" {
     inline = [
       "sed -i 's/\r//g' /tmp/bootstrap.sh",
       "chmod +x /tmp/bootstrap.sh",
-      "sudo sh /tmp/bootstrap.sh mongodb dev"
+      "sudo sh /tmp/bootstrap.sh catalogue dev"
     ]
   }
 }
